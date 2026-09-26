@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "offline-climate-tutor"
+version = "0.1.0"
+description = "Offline-first bilingual climate-literacy tutor for vocational energy students: calculators compute, the language model only explains, and a grounding check rejects invented numbers"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Zulfikar Aji Kusworo", email = "greataji13@gmail.com" }]
+dependencies = ["numpy", "httpx", "pyyaml", "streamlit"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/iklimtutor"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

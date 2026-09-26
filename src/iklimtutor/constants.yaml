@@ -1,0 +1,30 @@
+# Every number the tutor may state comes from a calculator or from this file.
+# status: verified   = checked against the cited primary source
+#         unverified = plausible default; confirm against the source before classroom use
+# Teachers can override any value in the app sidebar.
+
+grid_emission_factor_kg_per_kwh:
+  value: 0.85
+  unit: kg CO2 per kWh
+  status: unverified
+  note: >
+    Jawa-Madura-Bali grid. Published ESDM values vary by year and margin type
+    (OM/BM/CM); secondary sources report 0.79-0.89 t CO2/MWh. Replace with the
+    latest Ditjen Gatrik "Faktor Emisi GRK Sistem Ketenagalistrikan" value.
+  source: https://gatrik.esdm.go.id/frontend/download_index/?kode_category=emisi_pl
+
+pv_performance_ratio:
+  value: 0.80
+  unit: dimensionless
+  status: unverified
+  note: >
+    Typical assumption for well-installed crystalline-silicon rooftop systems;
+    real systems in hot humid climates may be lower (soiling, temperature).
+  source: teaching assumption
+
+household_water_per_capita_l_day:
+  value: null
+  unit: litre per person per day
+  status: missing
+  note: Not used until a sourced Indonesian figure is added.
+  source: null

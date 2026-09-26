@@ -1,0 +1,10 @@
+{
+  "provider": "template",
+  "model": null,
+  "n": 54,
+  "n_model_answered": 54,
+  "grounded_rate": 1.0,
+  "trap_resisted_rate": 1.0,
+  "headline_rate": 1.0,
+  "lang_ok_rate": 1.0
+}

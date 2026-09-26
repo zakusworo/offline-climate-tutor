@@ -1,0 +1,29 @@
+# Fact cards the tutor may cite. Keep them few, short and sourced.
+# verified: true only after the author has checked the wording against the source.
+- id: ipcc-ar6-warming
+  topics: [local_warming_trend]
+  text_id: Suhu permukaan global 2011-2020 sekitar 1,1 °C lebih tinggi daripada 1850-1900.
+  text_en: Global surface temperature in 2011-2020 was about 1.1 °C above 1850-1900.
+  source: IPCC (2023) AR6 Synthesis Report, Summary for Policymakers, A.1
+  verified: false
+
+- id: paris-goal
+  topics: [local_warming_trend, electricity_emissions]
+  text_id: Persetujuan Paris (2015) bertujuan menahan kenaikan suhu jauh di bawah 2 °C dan berupaya membatasinya pada 1,5 °C.
+  text_en: The Paris Agreement (2015) aims to hold warming well below 2 °C and pursue efforts to limit it to 1.5 °C.
+  source: UNFCCC (2015) Paris Agreement, Article 2.1(a)
+  verified: false
+
+- id: reanalysis-not-station
+  topics: [local_warming_trend, rooftop_pv]
+  text_id: NASA POWER adalah data reanalisis dan satelit pada grid sekitar 0,5 derajat, bukan pengukuran stasiun.
+  text_en: NASA POWER is reanalysis and satellite data on a grid of about 0.5 degree, not station measurements.
+  source: NASA POWER documentation, https://power.larc.nasa.gov/docs/
+  verified: false
+
+- id: grid-factor-varies
+  topics: [electricity_emissions, rooftop_pv]
+  text_id: Faktor emisi jaringan listrik berbeda antarsistem dan berubah tiap tahun mengikuti bauran pembangkit.
+  text_en: Grid emission factors differ between power systems and change every year with the generation mix.
+  source: Ditjen Ketenagalistrikan, Kementerian ESDM, Faktor Emisi GRK Sistem Ketenagalistrikan
+  verified: false
