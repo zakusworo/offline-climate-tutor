@@ -13,7 +13,8 @@ a later call or a journal paper. **Nothing has been submitted.**
 
 ## Resume here
 
-The repository is `git init`'d with **no commits**. The chapter's central result, how
+Remote: https://github.com/zakusworo/offline-climate-tutor (**private**, branch `main`).
+The chapter's central result, how
 often real models invent numbers, **does not exist yet**. Only the template baseline
 has been evaluated, and its 1.0 scores are trivial because it ignores the question.
 
